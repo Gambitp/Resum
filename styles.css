@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('C:/Users/Usuario/Downloads/fondo.jpg');
+    background-size: cover;
+}
+
+header {
+    background-color: #d6d6d6a6; /* Fondo gris */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-bottom: 40px; /* Espacio entre las secciones */
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.section {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #f0f0f0a9; /* Fondo gris */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-bottom: 40px; /* Espacio entre las secciones */
+}
+
+
+
+div.section:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al 110% cuando el cursor está sobre la imagen */
+}
+
+
+div.section article p {
+    max-width: 350px;
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #555;
+}
+
+article {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+address {
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
